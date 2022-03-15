@@ -9,4 +9,6 @@ mkShell {
     cmake
     gcc-arm-embedded
     ];
+
+  PICO_SDK_PATH="${pico-sdk}/lib/pico-sdk";
 }
